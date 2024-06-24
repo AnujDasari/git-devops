@@ -3,8 +3,12 @@ package basic;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World..!!!");
-
+		HelloWorld obj = new HelloWorld();
+		obj.welcomeMessage();
+	}
+	
+	public void welcomeMessage() {
+		System.out.println("Hi All... Welcome to Devops certification program!");
 	}
 
 }
